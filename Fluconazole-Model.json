@@ -12648,6 +12648,7 @@
           },
           {
             "Unit": "",
+            "Dimension": "Dimensionless",
             "Type": "Y2",
             "GridLines": false,
             "Visible": true,
@@ -12658,6 +12659,36 @@
           }
         ],
         "Curves": [
+          {
+            "Name": "Palkama_1998",
+            "X": "Time",
+            "Y": "Palkama_1998_fluconazole_400mg_iv_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#0000FF",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Ripa_1993",
+            "X": "Time",
+            "Y": "Ripa_1993_fluconazole_100mg_iv_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#008000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Shiba_1990",
+            "X": "Time",
+            "Y": "Shiba_1990_fluconazole_50mg_iv_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#F79646",
+              "LegendIndex": 1
+            }
+          },
           {
             "Name": "Palkama 1998 ",
             "X": "Palkama 1998 - Fluconazole i.v - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)|Time",
@@ -12751,6 +12782,7 @@
           },
           {
             "Unit": "",
+            "Dimension": "Dimensionless",
             "Type": "Y2",
             "GridLines": false,
             "Visible": true,
@@ -12762,6 +12794,36 @@
         ],
         "Curves": [
           {
+            "Name": "Ahonen_1997_fluconazole_400mg_iv_test-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Ahonen_1997_fluconazole_400mg_iv_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#0000FF",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Brammer_1990_fluconazole_50mg_iv_test-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Brammer_1990_fluconazole_50mg_iv_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#008000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Shiba_1990_fluconazole_25mg_iv_test-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Shiba_1990_fluconazole_25mg_iv_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#FF00FF",
+              "LegendIndex": 1
+            }
+          },
+          {
             "Name": "Ahonen 1997",
             "X": "Ahonen 1997 - Fluconazole i.v. - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)|Time",
             "Y": "Ahonen 1997 - Fluconazole i.v. - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
@@ -12770,6 +12832,26 @@
               "LegendIndex": 2,
               "LineStyle": "None",
               "Symbol": "Circle"
+            }
+          },
+          {
+            "Name": "Sobue_2004_fluconazole_800mg_iv_test-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Sobue_2004_fluconazole_800mg_iv_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#F79646",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Yeates_1994_fluconazole_100mg_iv_test-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Yeates_1994_fluconazole_100mg_iv_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#4BACC6",
+              "LegendIndex": 1
             }
           },
           {
@@ -12880,6 +12962,7 @@
           },
           {
             "Unit": "",
+            "Dimension": "Dimensionless",
             "Type": "Y2",
             "GridLines": false,
             "Visible": true,
@@ -12890,6 +12973,76 @@
           }
         ],
         "Curves": [
+          {
+            "Name": "Ahonen_1997_fluconazole_400mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Ahonen_1997_fluconazole_400mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#0000FF",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Brammer_1990_fluconazole_200mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Brammer_1990_fluconazole_200mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#008000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Brammer_1990_fluconazole_300mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Brammer_1990_fluconazole_300mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#F79646",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Brammer_1990_fluconazole_400mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Brammer_1990_fluconazole_400mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#4BACC6",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Brammer_1990_fluconazole_50mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Brammer_1990_fluconazole_50mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#C000C0",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Brammer_1991_fluconazole_50mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Brammer_1991_fluconazole_50mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#804040",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Shiba_1990_fluconazole_25mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Shiba_1990_fluconazole_25mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#7F7F7F",
+              "LegendIndex": 1
+            }
+          },
           {
             "Name": "Brammer 1990",
             "X": "Brammer 1990 - Fluconazole MD 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=15)|Time",
@@ -12902,6 +13055,16 @@
             }
           },
           {
+            "Name": "Shiba_1990_fluconazole_50mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Shiba_1990_fluconazole_50mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#00FF00",
+              "LegendIndex": 1
+            }
+          },
+          {
             "Name": "Ahonen 1997 ",
             "X": "Ahonen 1997 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)|Time",
             "Y": "Ahonen 1997 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
@@ -12910,6 +13073,36 @@
               "LegendIndex": 2,
               "LineStyle": "None",
               "Symbol": "Circle"
+            }
+          },
+          {
+            "Name": "Thorpe_1990_fluconazole_100mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Thorpe_1990_fluconazole_100mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#FF0000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Varhe_1996_fluconazole_100mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Varhe_1996_fluconazole_100mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#C0C000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Varhe_1996_fluconazole_200mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Varhe_1996_fluconazole_200mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#8080FF",
+              "LegendIndex": 1
             }
           },
           {
@@ -13067,6 +13260,36 @@
           }
         ],
         "Curves": [
+          {
+            "Name": "Palkama_1998_fluconazole_400mg_po_test-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Palkama_1998_fluconazole_400mg_po_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#008000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Shiba_1990_fluconazole_100mg_po_test-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Shiba_1990_fluconazole_100mg_po_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#FF00FF",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Varhe_1996_fluconazole_50mg_po_test-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Varhe_1996_fluconazole_50mg_po_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "VisibleInLegend": false,
+              "Color": "#0000FF",
+              "LegendIndex": 1
+            }
+          },
           {
             "Name": "Palkama 1998",
             "X": "Palkama 1998 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)|Time",
@@ -13234,5 +13457,6 @@
         }
       ]
     }
-  ]
+  ],
+  "ApplicationName": "PK-Sim"
 }
