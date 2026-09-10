@@ -108,12 +108,12 @@
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
@@ -130,12 +130,12 @@
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05,
+          "Value": 4.8717948718e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05,
+          "Value": 3.9743589744e-05,
           "ValueOrigin": {}
         },
         {
@@ -150,7 +150,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05,
+          "Value": 5.7051282051e-05,
           "ValueOrigin": {}
         },
         {
@@ -362,7 +362,7 @@
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05,
+          "Value": 4.5940341362e-05,
           "ValueOrigin": {}
         },
         {
@@ -452,7 +452,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06,
+          "Value": 4.4025157233e-06,
           "ValueOrigin": {}
         },
         {
@@ -467,7 +467,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05,
+          "Value": 2.4947589099e-05,
           "ValueOrigin": {}
         }
       ],
@@ -889,7 +889,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05,
+          "Value": 4.0079365079e-05,
           "ValueOrigin": {}
         },
         {
@@ -2543,12 +2543,81 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Palkama_1998_fluconazole_400mg_iv_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Palkama 1998 - Fluconazole i.v - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Palkama 1998 - Fluconazole i.v - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Palkama 1998 - Fluconazole i.v - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nPalkama_1998_fluconazole_400mg_iv_train\n2021-07-14 10:16"
         }
       ]
     },
@@ -2669,12 +2738,81 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Ripa_1993_fluconazole_100mg_iv_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Ripa 1993 - Fluconazole i.v. - Fluconazole - IV - 100 mg - Plasma - agg. (n=6)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Ripa 1993 - Fluconazole i.v. - Fluconazole - IV - 100 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Ripa 1993 - Fluconazole i.v. - Fluconazole - IV - 100 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nRipa_1993_fluconazole_100mg_iv_train\n2021-07-14 10:16"
         }
       ]
     },
@@ -2802,12 +2940,115 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Shiba_1990_fluconazole_50mg_iv_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Shiba 1990 - Fluconazole i.v. 50 mg - Fluconazole - IV - 50 mg - Plasma - agg. (n=8)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Shiba 1990 - Fluconazole i.v. 50 mg - Fluconazole - IV - 50 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Shiba 1990 - Fluconazole i.v. 50 mg - Fluconazole - IV - 50 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Shiba 1990 - Fluconazole i.v. 50 mg urine - Fluconazole - IV - 50 mg - Urine - agg. (n=8)-Fluconazole-Kidney-Urine-ArithmeticMean",
+              "X": "Shiba 1990 - Fluconazole i.v. 50 mg urine - Fluconazole - IV - 50 mg - Urine - agg. (n=8)|Time",
+              "Y": "Shiba 1990 - Fluconazole i.v. 50 mg urine - Fluconazole - IV - 50 mg - Urine - agg. (n=8)|ObservedData|Kidney|Urine|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Fluconazole-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "Shiba_1990_fluconazole_50mg_iv_train|Organism|Kidney|Urine|Fluconazole|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nShiba_1990_fluconazole_50mg_iv_train\n2021-07-14 10:16"
         }
       ]
     },
@@ -2928,12 +3169,81 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Ahonen_1997_fluconazole_400mg_iv_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Ahonen 1997 - Fluconazole i.v. - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Ahonen 1997 - Fluconazole i.v. - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Ahonen 1997 - Fluconazole i.v. - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nAhonen_1997_fluconazole_400mg_iv_test\n2021-07-14 10:14"
         }
       ]
     },
@@ -3054,12 +3364,81 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Brammer_1990_fluconazole_50mg_iv_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Brammer 1990 - Fluconazole i.v. - Fluconazole - IV - 50 mg - Plasma - agg. (n=12)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Brammer 1990 - Fluconazole i.v. - Fluconazole - IV - 50 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Brammer 1990 - Fluconazole i.v. - Fluconazole - IV - 50 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nBrammer_1990_fluconazole_50mg_iv_test\n2021-07-14 10:14"
         }
       ]
     },
@@ -3187,12 +3566,115 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Shiba_1990_fluconazole_25mg_iv_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Shiba 1990 - Fluconazole i.v. 25 mg - Fluconazole - IV - 25 mg - Plasma - agg. (n=8)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Shiba 1990 - Fluconazole i.v. 25 mg - Fluconazole - IV - 25 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Shiba 1990 - Fluconazole i.v. 25 mg - Fluconazole - IV - 25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Shiba 1990 - Fluconazole i.v. 25 mg urine - Fluconazole - IV - 25 mg - Urine - agg. (n=8)-Fluconazole-Kidney-Urine-ArithmeticMean",
+              "X": "Shiba 1990 - Fluconazole i.v. 25 mg urine - Fluconazole - IV - 25 mg - Urine - agg. (n=8)|Time",
+              "Y": "Shiba 1990 - Fluconazole i.v. 25 mg urine - Fluconazole - IV - 25 mg - Urine - agg. (n=8)|ObservedData|Kidney|Urine|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Fluconazole-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "Shiba_1990_fluconazole_25mg_iv_test|Organism|Kidney|Urine|Fluconazole|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nShiba_1990_fluconazole_25mg_iv_test\n2021-07-14 10:14"
         }
       ]
     },
@@ -3391,12 +3873,81 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Sobue_2004_fluconazole_800mg_iv_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Sobue 2004 - Fluconazole i.v. - Fluconazole - IV - 800 mg - Plasma - agg. (n=18)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Sobue 2004 - Fluconazole i.v. - Fluconazole - IV - 800 mg - Plasma - agg. (n=18)|Time",
+              "Y": "Sobue 2004 - Fluconazole i.v. - Fluconazole - IV - 800 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nSobue_2004_fluconazole_800mg_iv_test\n2021-07-14 10:15"
         }
       ]
     },
@@ -3517,12 +4068,81 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Yeates_1994_fluconazole_100mg_iv_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Yeates 1994 - Fluconazole i.v. healthy - Fluconazole - IV - 100 mg - Plasma - agg. (n=10)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Yeates 1994 - Fluconazole i.v. healthy - Fluconazole - IV - 100 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Yeates 1994 - Fluconazole i.v. healthy - Fluconazole - IV - 100 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nYeates_1994_fluconazole_100mg_iv_test\n2021-07-14 10:15"
         }
       ]
     },
@@ -3649,12 +4269,81 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Ahonen_1997_fluconazole_400mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Ahonen 1997 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Ahonen 1997 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Ahonen 1997 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nAhonen_1997_fluconazole_400mg_po_train\n2021-07-13 18:03"
         }
       ]
     },
@@ -3781,12 +4470,83 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 3.36885667,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Brammer_1990_fluconazole_50mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Brammer 1990 - Fluconazole SD 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=12)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Brammer 1990 - Fluconazole SD 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Brammer 1990 - Fluconazole SD 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nBrammer_1990_fluconazole_50mg_po_train\n2021-07-13 18:05"
         }
       ]
     },
@@ -3913,12 +4673,81 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Brammer_1991_fluconazole_50mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Brammer 1991 - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=3)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Brammer 1991 - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=3)|Time",
+              "Y": "Brammer 1991 - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=3)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nBrammer_1991_fluconazole_50mg_po_train\n2021-07-13 18:05"
         }
       ]
     },
@@ -4052,12 +4881,115 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Shiba_1990_fluconazole_50mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Shiba 1990 - Fluconazole oral 50 mg - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Shiba 1990 - Fluconazole oral 50 mg - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Shiba 1990 - Fluconazole oral 50 mg - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Shiba 1990 - Fluconazole oral 50 mg urine - Fluconazole - PO - 50 mg - Urine - agg. (n=8)-Fluconazole-Kidney-Urine-ArithmeticMean",
+              "X": "Shiba 1990 - Fluconazole oral 50 mg urine - Fluconazole - PO - 50 mg - Urine - agg. (n=8)|Time",
+              "Y": "Shiba 1990 - Fluconazole oral 50 mg urine - Fluconazole - PO - 50 mg - Urine - agg. (n=8)|ObservedData|Kidney|Urine|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Fluconazole-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "Shiba_1990_fluconazole_50mg_po_train|Organism|Kidney|Urine|Fluconazole|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nShiba_1990_fluconazole_50mg_po_train\n2021-07-13 18:06"
         }
       ]
     },
@@ -4191,12 +5123,115 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Shiba_1990_fluconazole_25mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Shiba 1990 - Fluconazole oral 25 mg - Fluconazole - PO - 25 mg - Plasma - agg. (n=8)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Shiba 1990 - Fluconazole oral 25 mg - Fluconazole - PO - 25 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Shiba 1990 - Fluconazole oral 25 mg - Fluconazole - PO - 25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Shiba 1990 - Fluconazole oral 25 mg urine - Fluconazole - PO - 25 mg - Urine - agg. (n=8)-Fluconazole-Kidney-Urine-ArithmeticMean",
+              "X": "Shiba 1990 - Fluconazole oral 25 mg urine - Fluconazole - PO - 25 mg - Urine - agg. (n=8)|Time",
+              "Y": "Shiba 1990 - Fluconazole oral 25 mg urine - Fluconazole - PO - 25 mg - Urine - agg. (n=8)|ObservedData|Kidney|Urine|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Fluconazole-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "Shiba_1990_fluconazole_25mg_po_train|Organism|Kidney|Urine|Fluconazole|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nShiba_1990_fluconazole_25mg_po_train\n2021-07-13 18:05"
         }
       ]
     },
@@ -4323,12 +5358,81 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Thorpe_1990_fluconazole_100mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Thorpe 1990 - Fluconazole oral without antacida - Fluconazole - PO - 100 mg - Plasma - agg. (n=14)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Thorpe 1990 - Fluconazole oral without antacida - Fluconazole - PO - 100 mg - Plasma - agg. (n=14)|Time",
+              "Y": "Thorpe 1990 - Fluconazole oral without antacida - Fluconazole - PO - 100 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nThorpe_1990_fluconazole_100mg_po_train\n2021-07-13 18:06"
         }
       ]
     },
@@ -4473,12 +5577,83 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 16.6772346,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Varhe_1996_fluconazole_100mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Varhe 1996 - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Varhe 1996 - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Varhe 1996 - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nVarhe_1996_fluconazole_100mg_po_train\n2021-07-13 18:06"
         }
       ]
     },
@@ -4623,12 +5798,83 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 39.86148,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Varhe_1996_fluconazole_200mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Varhe 1996 - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Varhe 1996 - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Varhe 1996 - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nVarhe_1996_fluconazole_200mg_po_train\n2021-07-13 18:06"
         }
       ]
     },
@@ -4755,12 +6001,81 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Palkama_1998_fluconazole_400mg_po_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Palkama 1998 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Palkama 1998 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Palkama 1998 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nPalkama_1998_fluconazole_400mg_po_test\n2021-07-14 10:17"
         }
       ]
     },
@@ -4887,12 +6202,81 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Shiba_1990_fluconazole_100mg_po_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Shiba 1990 - Fluconazole oral 100 mg - Fluconazole - PO - 100 mg - Plasma - agg. (n=6)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Shiba 1990 - Fluconazole oral 100 mg - Fluconazole - PO - 100 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Shiba 1990 - Fluconazole oral 100 mg - Fluconazole - PO - 100 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nShiba_1990_fluconazole_100mg_po_test\n2021-07-14 10:19"
         }
       ]
     },
@@ -5037,12 +6421,81 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Varhe_1996_fluconazole_50mg_po_test|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Varhe 1996 - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Varhe 1996 - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Varhe 1996 - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "fluconazole_final_JE\nVarhe_1996_fluconazole_50mg_po_test\n2021-07-14 10:21"
         }
       ]
     },
@@ -5247,12 +6700,83 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 29.4856682,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Brammer_1990_fluconazole_200mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Brammer 1990 - Fluconazole MD 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=15)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Brammer 1990 - Fluconazole MD 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=15)|Time",
+              "Y": "Brammer 1990 - Fluconazole MD 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=15)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole-Model\nBrammer_1990_fluconazole_200mg_po_train\n2021-08-23 09:35"
         }
       ]
     },
@@ -5457,12 +6981,83 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 43.3947639,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Brammer_1990_fluconazole_300mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Brammer 1990 - Fluconazole MD 300 mg oral - Fluconazole - PO - 300 mg - Plasma - agg. (n=15)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Brammer 1990 - Fluconazole MD 300 mg oral - Fluconazole - PO - 300 mg - Plasma - agg. (n=15)|Time",
+              "Y": "Brammer 1990 - Fluconazole MD 300 mg oral - Fluconazole - PO - 300 mg - Plasma - agg. (n=15)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole-Model\nBrammer_1990_fluconazole_300mg_po_train\n2021-08-23 09:36"
         }
       ]
     },
@@ -5667,12 +7262,83 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 57.8593254,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Brammer_1990_fluconazole_400mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Brammer 1990 - Fluconazole MD 400 mg oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=15)-Fluconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Brammer 1990 - Fluconazole MD 400 mg oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=15)|Time",
+              "Y": "Brammer 1990 - Fluconazole MD 400 mg oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=15)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole-Model\nBrammer_1990_fluconazole_400mg_po_train\n2021-08-23 09:36"
         }
       ]
     }
@@ -5805,7 +7471,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 1E-05,
+              "Value": 1e-05,
               "Unit": "1/min",
               "ValueOrigin": {}
             },
@@ -7208,7 +8874,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 306.33,
-            "LLOQ": 1E-07
+            "LLOQ": 1e-07
           },
           "Values": [
             0.527,
