@@ -2482,14 +2482,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|Palkama_1998_fluconazole_midazolam_ddi.fluconazole.400.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 60.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)"
       ],
@@ -2675,14 +2667,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Ripa_1993_iv_inf_sd_plasma.fluconazole.100.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 30.0,
-          "Unit": "min",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2871,14 +2855,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Shiba_1990_iv_inf_sd_plasma.fluconazole.50.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 2.0,
-          "Unit": "min",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3108,14 +3084,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|Ahonen_1997_fluconazole_midazolam_ddi.fluconazole.400.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 60.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)"
       ],
@@ -3301,14 +3269,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Brammer_1990_iv_inf_sd_plasma.fluconazole.50.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 2.0,
-          "Unit": "min",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3497,14 +3457,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Shiba_1990_iv_inf_sd_plasma.fluconazole.25.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 1.0,
-          "Unit": "min",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3734,92 +3686,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 240.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_10|ProtocolSchemaItem|Infusion time",
-          "Value": 240.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_11|ProtocolSchemaItem|Infusion time",
-          "Value": 240.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_12|ProtocolSchemaItem|Infusion time",
-          "Value": 240.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_13|ProtocolSchemaItem|Infusion time",
-          "Value": 240.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_14|ProtocolSchemaItem|Infusion time",
-          "Value": 240.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
-          "Value": 240.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_3|ProtocolSchemaItem|Infusion time",
-          "Value": 240.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_4|ProtocolSchemaItem|Infusion time",
-          "Value": 240.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_5|ProtocolSchemaItem|Infusion time",
-          "Value": 240.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_6|ProtocolSchemaItem|Infusion time",
-          "Value": 240.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_7|ProtocolSchemaItem|Infusion time",
-          "Value": 240.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_8|ProtocolSchemaItem|Infusion time",
-          "Value": 240.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_9|ProtocolSchemaItem|Infusion time",
-          "Value": 240.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)"
       ],
@@ -4007,14 +3873,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|Yeates_1994_iv_inf_sd_plasma.fluconazole.100.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 20.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)"
       ],
@@ -4200,14 +4058,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Ahonen_1997_fluconazole_midazolam_ddi.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4401,14 +4251,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Brammer_1990_po_sd_plasma.fluconazole.50.mg.po|Fluconazole_Weibull_low dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4606,14 +4448,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|Brammer_1991_po_sd_gc_plasma.fluconazole.50.mg.po|Fluconazole_Weibull_low dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)"
       ],
@@ -4806,14 +4640,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Shiba_1990_po_sd_plasma.fluconazole.50.mg.po|Fluconazole_Weibull_low dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5050,14 +4876,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|Shiba_1990_po_sd_plasma.fluconazole.25.mg.po|Fluconazole_Weibull_low dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Fluconazole|Fraction excreted to urine"
@@ -5291,14 +5109,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|Thorpe_1990_po_sd_plasma.fluconazole.100.mg.po|Fluconazole_Weibull_medium high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 2.05,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)"
       ],
@@ -5490,32 +5300,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.100.mg.po|Fluconazole_Weibull_medium high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.100.mg.po|Fluconazole_Weibull_medium high dose|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.100.mg.po|Fluconazole_Weibull_medium high dose|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.100.mg.po|Fluconazole_Weibull_medium high dose|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5713,32 +5497,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)"
       ],
@@ -5934,14 +5692,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|Palkama_1998_fluconazole_midazolam_ddi.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)"
       ],
@@ -6133,14 +5883,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Shiba_1990_po_sd_plasma.fluconazole.100.mg.po|Fluconazole_Weibull_medium high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -6336,32 +6078,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.50.mg.po|Fluconazole_Weibull_low dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.50.mg.po|Fluconazole_Weibull_low dose|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.50.mg.po|Fluconazole_Weibull_low dose|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.50.mg.po|Fluconazole_Weibull_low dose|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)"
       ],
@@ -6553,92 +6269,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -6836,92 +6466,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)"
       ],
@@ -7115,92 +6659,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
